@@ -12,6 +12,7 @@
 		1F2C7776283BF4230084CA49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2C7775283BF4230084CA49 /* Preview Assets.xcassets */; };
 		1F2C777E283BF6040084CA49 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C777D283BF6040084CA49 /* ListView.swift */; };
 		1F2C7780283BF7120084CA49 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C777F283BF7120084CA49 /* ListRowView.swift */; };
+		1F54CC92283E719800DB18A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F54CC91283E719800DB18A8 /* LaunchScreen.storyboard */; };
 		1F73BB04283CBD050098EF02 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73BB03283CBD050098EF02 /* AddView.swift */; };
 		1F73BB07283CC11D0098EF02 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73BB06283CC11D0098EF02 /* Item.swift */; };
 		1FF57DDA283E100C003348EF /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF57DD9283E100C003348EF /* ListViewModel.swift */; };
@@ -19,12 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F2C776B283BF4220084CA49 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2C776B283BF4220084CA49 /* Do Stuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do Stuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2C776E283BF4220084CA49 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		1F2C7772283BF4230084CA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2C7775283BF4230084CA49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F2C777D283BF6040084CA49 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		1F2C777F283BF7120084CA49 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		1F54CC91283E719800DB18A8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F73BB03283CBD050098EF02 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		1F73BB06283CC11D0098EF02 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1FF57DD9283E100C003348EF /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
@@ -53,7 +55,7 @@
 		1F2C776C283BF4220084CA49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F2C776B283BF4220084CA49 /* ToDoList.app */,
+				1F2C776B283BF4220084CA49 /* Do Stuff.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +82,7 @@
 		1F2C777C283BF5EF0084CA49 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1F54CC91283E719800DB18A8 /* LaunchScreen.storyboard */,
 				1FF57DDB283E3C6E003348EF /* NoItemsView.swift */,
 				1F2C777D283BF6040084CA49 /* ListView.swift */,
 				1F2C777F283BF7120084CA49 /* ListRowView.swift */,
@@ -123,7 +126,7 @@
 			);
 			name = ToDoList;
 			productName = ToDoList;
-			productReference = 1F2C776B283BF4220084CA49 /* ToDoList.app */;
+			productReference = 1F2C776B283BF4220084CA49 /* Do Stuff.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F54CC92283E719800DB18A8 /* LaunchScreen.storyboard in Resources */,
 				1F2C7776283BF4230084CA49 /* Preview Assets.xcassets in Resources */,
 				1F2C7773283BF4230084CA49 /* Assets.xcassets in Resources */,
 			);
@@ -317,6 +321,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +330,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pRoxy.ToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Do Stuff";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,6 +351,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,7 +360,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pRoxy.ToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Do Stuff";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
