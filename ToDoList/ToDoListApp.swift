@@ -26,6 +26,8 @@ struct ToDoListApp: App {
 		  NavigationView {
 			 ListView()
 		  }
+		  // ipad and iphone landscape view
+		  .navigationViewStyle(StackNavigationViewStyle())
 		  .environmentObject(listViewModel)
         }
     }
